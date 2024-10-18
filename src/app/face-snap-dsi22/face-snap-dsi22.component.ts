@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common'; // Importez CommonModule
   standalone: true,
   templateUrl: './face-snap-dsi22.component.html',
   styleUrls: ['./face-snap-dsi22.component.scss'],
-  imports: [CommonModule] 
+  imports: [CommonModule,] 
 })
 export class FaceSnapDSI22Component implements OnInit {
   @Input() faceSnap!: FaceSnap; 
